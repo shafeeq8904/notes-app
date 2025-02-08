@@ -44,3 +44,15 @@ cd notes-app
       npm run dev
       ✅ Runs on http://localhost:5173
 
+🛠 Tech Stack
+Frontend (React)
+      ⚛️ React.js
+      🎨 Tailwind CSS
+      🔍 React Router
+      🔥 Axios for API calls
+Backend (Node.js + Express)
+      🚀 Node.js & Express.js
+      🔒 JWT Authentication
+      🛢 MongoDB with Mongoose
+      🔥 Bcrypt for Password Hashing
+
