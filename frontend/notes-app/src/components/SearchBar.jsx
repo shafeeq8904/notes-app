@@ -4,6 +4,14 @@ import {IoMdClose} from 'react-icons/io'
 
 
 export const SearchBar = ({ value, onChange, handleSearch ,onClearSearch }) => {
+
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      handleSearch(); 
+    }
+  };
+
   return (
     <div className="w-80 flex items-center px-4 bg-slate-100 rounded-md">
       <input
@@ -11,6 +19,7 @@ export const SearchBar = ({ value, onChange, handleSearch ,onClearSearch }) => {
         type="text"
         value={value}
         onChange={onChange}
+        onKeyDown={handleKeyPress}
         placeholder="Search Notes"
       />
 

@@ -10,6 +10,10 @@ export default {
       primary: "#2B85FF",
       secondary: "#EF863E",
       },
+      container: {
+        center: true,
+        padding: "1rem",  // ✅ Prevents content from overflowing
+      },
     },
   },
   plugins: [],
